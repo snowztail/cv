@@ -11,16 +11,14 @@
 \RequirePackage{xcolor}
 \RequirePackage[yyyymmdd]{datetime}
 \RequirePackage[subtle]{savetrees}
-\RequirePackage{fancyhdr}
+% \RequirePackage{fancyhdr}
 
 % \setitemize{itemsep=1pt}
 % \setlist{nosep}
 \setlist[itemize]{itemsep=0.5pt}
 % \renewcommand{\headrulewidth}{0pt}
 
-\pagestyle{fancy}
 \pagenumbering{gobble}
-\fancyhf{}
 
 \newcommand{\updateinfo}[1]{
 	\vfill
